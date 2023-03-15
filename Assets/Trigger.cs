@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour
 {
+    private float speed = 2f;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,7 @@ public class Trigger : MonoBehaviour
     {
         if (myTrigger.gameObject.name == "1")
         {
-            Debug.Log("1");
+            transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
         if (myTrigger.gameObject.name == "2")
         {
