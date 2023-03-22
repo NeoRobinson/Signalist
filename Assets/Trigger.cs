@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour
 {
-    private float speed = 2f;
     // Start is called before the first frame update
+
+    public int triggerName;
+
     void Start()
     {
         
@@ -20,36 +22,37 @@ public class Trigger : MonoBehaviour
     {
         if (myTrigger.gameObject.name == "1")
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * speed);
+            triggerName = 1;
         }
         if (myTrigger.gameObject.name == "2")
         {
-            Debug.Log("2");
+            triggerName = 2;
         }
         if (myTrigger.gameObject.name == "3")
         {
-            Debug.Log("3");
+            triggerName = 3;
         }
         if (myTrigger.gameObject.name == "4")
         {
-            Debug.Log("4");
+            triggerName = 4;
         }
         if (myTrigger.gameObject.name == "5")
         {
-            Debug.Log("5");
+            triggerName = 5;
         }
         if (myTrigger.gameObject.name == "6")
         {
-            Debug.Log("6");
+            triggerName = 6;
         }
         if (myTrigger.gameObject.name == "7")
         {
-            Debug.Log("7");
+            triggerName = 7;
         }
         if (myTrigger.gameObject.name == "8")
         {
-            Debug.Log("8");
+            triggerName = 8;
         }
     }
 
 }
+
