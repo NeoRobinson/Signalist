@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 556
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -250,7 +250,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 84
+=======
+  controlID: 26
+>>>>>>> parent of 4940dbe (123)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +279,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 85
+=======
+  controlID: 27
+>>>>>>> parent of 4940dbe (123)
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -386,9 +394,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 925e0000
     m_LastClickedID: 24210
     m_ExpandedIDs: 00000000925e000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: b28a0000
+    m_LastClickedID: 35506
+    m_ExpandedIDs: 00000000b28a000000ca9a3bffffff7f
+>>>>>>> parent of 4940dbe (123)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +430,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000925e0000
+=======
+    m_ExpandedIDs: 
+>>>>>>> parent of 4940dbe (123)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -548,7 +566,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 2efbffff
+=======
+      m_ExpandedIDs: e0c1ffffdac3ffffdcc5ffffa6c7ffffdcc9ffffd2cbffff14ceffff548c0000848d0000
+>>>>>>> parent of 4940dbe (123)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -831,9 +853,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 6.500663, y: -1.5335286, z: -2.5126507}
     speed: 2
     m_Value: {x: 6.500663, y: -1.5335286, z: -2.5126507}
+=======
+    m_Target: {x: 14.407955, y: -5.937277, z: -3.0746653}
+    speed: 2
+    m_Value: {x: 14.407955, y: -5.937277, z: -3.0746653}
+>>>>>>> parent of 4940dbe (123)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -880,6 +908,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.077745095, y: -0.8255873, z: 0.1174419, w: -0.54647166}
     speed: 2
     m_Value: {x: -0.077742666, y: -0.82556146, z: 0.117438234, w: -0.5464546}
@@ -887,6 +916,15 @@ MonoBehaviour:
     m_Target: 5.696903
     speed: 2
     m_Value: 5.696903
+=======
+    m_Target: {x: -0.13532399, y: -0.7580967, z: 0.16658995, w: -0.6158182}
+    speed: 2
+    m_Value: {x: -0.13532348, y: -0.7580939, z: 0.16658933, w: -0.61581594}
+  m_Size:
+    m_Target: 9.2078285
+    speed: 2
+    m_Value: 8.811319
+>>>>>>> parent of 4940dbe (123)
   m_Ortho:
     m_Target: 0
     speed: 2
