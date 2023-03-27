@@ -4,25 +4,42 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour
 {
+<<<<<<< HEAD
+=======
+    private IEnumerator coroutine;
+    public GameObject Cylinder;
+    private float speed = 2f;
+>>>>>>> parent of 9ed5680 (Revert "123")
     // Start is called before the first frame update
 
     public int triggerName;
 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+    private void OnTriggerStay(Collider myTrigger)
+    {
+        if (myTrigger.gameObject.name == "1")
+        {
+            Cylinder.transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        }
     }
     void OnTriggerEnter(Collider myTrigger)
     {
         if (myTrigger.gameObject.name == "1")
         {
+<<<<<<< HEAD
             triggerName = 1;
+=======
+            
+>>>>>>> parent of 9ed5680 (Revert "123")
         }
         if (myTrigger.gameObject.name == "2")
         {
@@ -53,6 +70,20 @@ public class Trigger : MonoBehaviour
             triggerName = 8;
         }
     }
+    private void OnTriggerExit(Collider myTrigger)
+    {
+        if (myTrigger.gameObject.name == "1")
+        {
+            StopAllCoroutines();
+        }
+    }
+    private IEnumerator Transport(float waitTime)
+    {
+        while (true)
+        {
+            Cylinder.transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        }
 
+    }
 }
 
